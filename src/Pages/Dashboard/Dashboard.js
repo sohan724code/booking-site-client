@@ -1,10 +1,11 @@
-import React from "react";
+import "./Dashboard.css";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 
 const Dashboard = () => {
   return (
-    <div>
+    <div className="dashboard">
       <Sidebar />
+      <div className="dashContainer">Container</div>
     </div>
   );
 };
